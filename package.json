@@ -1,0 +1,58 @@
+{
+	"name": "simple-server",
+	"version": "0.1.6",
+	"description": "Simple Server allows you to easily get a node.js static file server up and running anywhere anytime.",
+	"homepage": "https://github.com/balupton/simple-server",
+	"keywords": [
+		"server",
+		"coffescript",
+		"simple"
+	],
+	"author": {
+		"name": "Benjamin Lupton",
+		"email": "b@lupton.cc",
+		"web": "http://balupton.com"
+	},
+	"maintainers": [
+		{
+			"name": "Benjamin Lupton",
+			"email": "b@lupton.cc",
+			"web": "http://balupton.com"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Benjamin Lupton",
+			"email": "b@lupton.cc",
+			"web": "http://balupton.com"
+		}
+	],
+	"bugs": {
+		"web": "https://github.com/balupton/simple-server/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://creativecommons.org/licenses/MIT/"
+		}
+	],
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/balupton/simple-server.git"
+	},
+	"dependencies": {
+	   "express": ">=0.0.1",
+	   "coffee4clients": ">=0.0.1"
+	},
+	"engines" : {
+		"node": ">=0.4.0"
+	},
+	"directories": {
+		"lib": "./lib/sise"
+	},
+	"bin": {
+		"sise": "./bin/sise.coffee",
+		"simple-server": "./bin/sise.coffee"
+	},
+	"main": "./lib/sise"
+}
