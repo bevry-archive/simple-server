@@ -14,8 +14,14 @@ app = express.createServer()
 
 # Configure
 app.configure ->
-    app.use express.static cwd
-    app.use express.errorHandler {dumpExceptions: true, showStack: true }
+	# Standard
+	app.use express.errorHandler()
+	app.use express.bodyParser()
+	app.use express.methodOverride()
+
+	# Routing
+	app.use app.router
+	app.use express.static publicPath
 	coffee4clients.setup app, publicPath
 
 # Listen
