@@ -10,20 +10,23 @@ if publicPath.length is 0 or publicPath[0] is '.'
 	publicPath = cwd + publicPath
 
 # Create Server
-app = express.createServer()
+server = express.createServer()
 
 # Configure
-app.configure ->
+server.configure ->
 	# Standard
-	app.use express.errorHandler()
-	app.use express.bodyParser()
-	app.use express.methodOverride()
+	server.use express.errorHandler()
+	server.use express.bodyParser()
+	server.use express.methodOverride()
 
 	# Routing
-	app.use app.router
-	app.use express.static publicPath
-	coffee4clients.setup app, publicPath
+	server.use server.router
+	server.use express.static publicPath
+	coffee4clients.createInstance {
+		server: server
+		publicPath: publicPath
+	}
 
 # Listen
-app.listen port
-console.log 'Express server listening on port %d', app.address().port
+server.listen port
+console.log 'Express server listening on port %d', server.address().port

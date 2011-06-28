@@ -30,6 +30,9 @@ The first argument is the folder you want to serve, and the second argument is t
 
 ## History
 
+- v0.2 June 29, 2011
+	- Updated Coffee4Clients to v0.2 - renders `.coffee` files only if url has `?js`
+
 - v0.1 June 3, 2011
 	- Initial commit
 
