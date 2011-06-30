@@ -22,6 +22,7 @@ server.configure ->
 	# Routing
 	server.use server.router
 	server.use express.static publicPath
+	server.use express.directory publicPath
 	coffee4clients.createInstance {
 		server: server
 		publicPath: publicPath
