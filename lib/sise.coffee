@@ -1,6 +1,7 @@
 # Requirements
 express = require 'express'
 coffee4clients = require 'coffee4clients'
+less4clients = require 'less4clients'
 cwd = process.cwd()
 publicPath = process.argv[2]||cwd
 port = process.argv[3]||3000
@@ -23,7 +24,15 @@ server.configure ->
 	server.use server.router
 	server.use express.static publicPath
 	server.use express.directory publicPath
+
+	# Coffee4Clients
 	coffee4clients.createInstance {
+		server: server
+		publicPath: publicPath
+	}
+
+	# Less4Clients
+	less4clients.createInstance {
 		server: server
 		publicPath: publicPath
 	}

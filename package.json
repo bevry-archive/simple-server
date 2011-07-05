@@ -1,6 +1,6 @@
 {
 	"name": "simple-server",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "Simple Server allows you to easily get a node.js static file server up and running anywhere anytime.",
 	"homepage": "https://github.com/balupton/simple-server",
 	"keywords": [
@@ -42,7 +42,8 @@
 	},
 	"dependencies": {
 	   "express": ">=0.0.1",
-	   "coffee4clients": ">=0.2.2"
+	   "coffee4clients": ">=0.2.2",
+	   "less4clients": ">=0.1.0"
 	},
 	"engines" : {
 		"node": ">=0.4.0"

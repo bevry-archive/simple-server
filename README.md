@@ -30,11 +30,14 @@ The first argument is the folder you want to serve, and the second argument is t
 
 ## History
 
+- v0.4 July 5, 2011
+	- Added [Less4Clients](https://github.com/balupton/less4clients.npm)
+
 - v0.3 June 30, 2011
 	- Added directory listings
 
 - v0.2 June 29, 2011
-	- Added Coffee4Clients v0.2
+	- Added [Coffee4Clients](https://github.com/balupton/coffee4clients.npm) v0.2
 		- CoffeeScript files accessed with the querystring `?js` are compiled server-side
 
 - v0.1 June 3, 2011
