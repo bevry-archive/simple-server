@@ -21,14 +21,19 @@ Simple Server allows you to easily get a node.js static file server up and runni
 
 To get your `public` folder up and running on `http://localhost:3000` simply type the following into terminal:
 
-	simple-server public 3000
-	- or -
-	sise public 3000
+``` bash
+simple-server public 3000
+```
 
 The first argument is the folder you want to serve, and the second argument is the port to serve from :)
 
 
 ## History
+
+
+- v0.5 February 11, 2012
+	- Removed [Less4Clients](https://github.com/balupton/less4clients.npm) and [Coffee4Clients](https://github.com/balupton/coffee4clients.npm) as they should be using [DocPad](http://github.com/balupton/docpad) instead if they want that
+	- Moved History into `History.md`
 
 - v0.4 July 5, 2011
 	- Added [Less4Clients](https://github.com/balupton/less4clients.npm)
