@@ -30,23 +30,7 @@ The first argument is the folder you want to serve, and the second argument is t
 
 ## History
 
-
-- v0.5 February 11, 2012
-	- Removed [Less4Clients](https://github.com/balupton/less4clients.npm) and [Coffee4Clients](https://github.com/balupton/coffee4clients.npm) as they should be using [DocPad](http://github.com/balupton/docpad) instead if they want that
-	- Moved History into `History.md`
-
-- v0.4 July 5, 2011
-	- Added [Less4Clients](https://github.com/balupton/less4clients.npm)
-
-- v0.3 June 30, 2011
-	- Added directory listings
-
-- v0.2 June 29, 2011
-	- Added [Coffee4Clients](https://github.com/balupton/coffee4clients.npm) v0.2
-		- CoffeeScript files accessed with the querystring `?js` are compiled server-side
-
-- v0.1 June 3, 2011
-	- Initial commit
+You can discover the history inside the [History.md](https://github.com/balupton/simple-server/blob/master/History.md#files) file
 
 
 ## Todo
@@ -57,4 +41,4 @@ The first argument is the folder you want to serve, and the second argument is t
 ## License
 
 Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
-Copyright 2011 [Benjamin Arthur Lupton](http://balupton.com)
+<br/>Copyright &copy; 2011-2012 [Benjamin Arthur Lupton](http://balupton.com)
