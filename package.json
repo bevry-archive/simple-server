@@ -41,7 +41,8 @@
 		"url" : "http://github.com/balupton/simple-server.git"
 	},
 	"dependencies": {
-		"express": "2.5.x"
+		"express": "2.5.x",
+		"jade-static": "1.0.x"
 	},
 	"engines" : {
 		"node": ">=0.4.0"
