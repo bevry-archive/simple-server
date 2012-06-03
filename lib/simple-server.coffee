@@ -1,6 +1,7 @@
 # Requirements
 express = require('express')
 path = require('path')
+jadeStatic = require('jade-static')
 
 # Variables
 publicPath = path.resolve(process.argv[2]||'.')
@@ -19,6 +20,7 @@ server.configure ->
 	# Routing
 	server.use server.router
 	server.use express.static publicPath
+	server.use jadeStatic publicPath
 	server.use express.directory publicPath
 
 # Listen
