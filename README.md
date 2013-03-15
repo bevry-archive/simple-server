@@ -33,11 +33,6 @@ The first argument is the folder you want to serve, and the second argument is t
 You can discover the history inside the [History.md](https://github.com/balupton/simple-server/blob/master/History.md#files) file
 
 
-## Todo
-
-- Add server-side less css compilation
-
-
 ## License
 
 Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
