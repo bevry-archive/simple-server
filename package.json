@@ -41,7 +41,8 @@
 		"url" : "http://github.com/balupton/simple-server.git"
 	},
 	"dependencies": {
-		"express": "2.5.x"
+		"express": "2.5.x",
+		"coffee-script": "*"
 	},
 	"engines" : {
 		"node": ">=0.4.0"
