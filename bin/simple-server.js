@@ -1,2 +1,2 @@
-#!/usr/bin/env coffee
-require __dirname+'/../lib/simple-server.coffee'
+#!/usr/bin/env node
+require('../lib/simple-server')

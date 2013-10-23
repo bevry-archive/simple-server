@@ -1,5 +1,10 @@
 ## History
 
+- v1.0.1 October 23, 2013
+	- Accepts arguments in any order now
+	- Removed coffee-script dependency
+	- Project meta data files are now maintained with [Projectz](https://github.com/bevry/projectz)
+
 - v1.0.0 February 11, 2012
 	- Removed [Less4Clients](https://github.com/balupton/less4clients.npm) and [Coffee4Clients](https://github.com/balupton/coffee4clients.npm) as they should be using [DocPad](http://github.com/balupton/docpad) instead if they want that
 	- Moved History into `History.md`
