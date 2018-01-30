@@ -1,48 +1,68 @@
 {
   "title": "Simple Server",
   "name": "simple-server",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Simple Server allows you to easily get a node.js static file server up and running anywhere anytime.",
   "homepage": "https://github.com/balupton/simple-server",
+  "license": "MIT",
   "keywords": [
     "server",
     "simple"
   ],
+  "badges": {
+    "list": [
+      "travisci",
+      "npmversion",
+      "npmdownloads",
+      "daviddm",
+      "daviddmdev",
+      "---",
+      "patreon",
+      "opencollective",
+      "gratipay",
+      "flattr",
+      "paypal",
+      "bitcoin",
+      "wishlist",
+      "---",
+      "slackin"
+    ],
+    "config": {
+      "patreonUsername": "bevry",
+      "opencollectiveUsername": "bevry",
+      "gratipayUsername": "bevry",
+      "flattrUsername": "balupton",
+      "paypalURL": "https://bevry.me/paypal",
+      "bitcoinURL": "https://bevry.me/bitcoin",
+      "wishlistURL": "https://bevry.me/wishlist",
+      "slackinURL": "https://slack.bevry.me"
+    }
+  },
   "author": "2011+ Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
   ],
   "contributors": [
-    "balupton (https://github.com/balupton)"
+    "Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
+    "Darrick Brown (https://github.com/voidstardb)"
   ],
   "bugs": {
     "url": "https://github.com/balupton/simple-server/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "http://creativecommons.org/licenses/MIT/"
-  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/balupton/simple-server.git"
-  },
-  "dependencies": {
-    "connect": "~2.10.0"
+    "url": "https://github.com/balupton/simple-server.git"
   },
   "engines": {
-    "node": ">=0.4.0"
+    "node": ">=6"
   },
-  "directories": {
-    "lib": "lib"
+  "preferGlobal": true,
+  "bin": "bin.js",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^6.4.9"
   },
-  "bin": {
-    "simple-server": "./bin/simple-server.js"
-  },
-  "main": "./lib/simple-server.js",
-  "badges": {
-    "npm": true,
-    "gittip": "balupton",
-    "flattr": "344188/balupton-on-Flattr",
-    "paypal": "QB8GQPZAH84N6"
+  "devDependencies": {
+    "projectz": "^1.4.0"
   }
 }
