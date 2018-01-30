@@ -1,7 +1,7 @@
 {
   "title": "Simple Server",
   "name": "simple-server",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple Server allows you to easily get a node.js static file server up and running anywhere anytime.",
   "homepage": "https://github.com/balupton/simple-server",
   "license": "MIT",

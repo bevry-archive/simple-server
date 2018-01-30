@@ -48,20 +48,24 @@ Simple Server allows you to easily get a node.js static file server up and runni
 
 Module usage is as so:
 
-```
+``` javascript
 require('simple-server')(dir, port)
 ```
 
 Command line usage is as so:
 
-```
+``` bash
 npm i -g simple-server
 simple-server public 3000
 ```
 
 Number argument is the port. String argument is the directory. No directory will listen to the current directory. No port will listen on port `3000`.
 
-As of v1.1.0 this project is now just a quick alias for [zeit/serve](https://github.com/zeit/serve), which you should just use directly, as that project is maintained and this project is not.
+As of v1.1.0 this project is now just a quick alias for [zeit/serve](https://github.com/zeit/serve), which you should just use directly, as that project is maintained and this project is not. If you have python on your computer, you can also just use:
+
+``` bash
+python -m SimpleHTTPServer 8000
+```
 
 
 <!-- HISTORY/ -->

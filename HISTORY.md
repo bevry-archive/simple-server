@@ -1,5 +1,8 @@
 # History
 
+## v1.1.1 2018 January 30
+- Syntax highlighting in readme
+
 ## v1.1.0 2018 January 30
 - Now just an alias for [zeit/serve](https://github.com/zeit/serve) as that is actually maintained
 - Minimum supported node version changed from 0.4 to 6
